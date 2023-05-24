@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
     {
         try {
-            mSocket = IO.socket("http://121.242.232.202:3002");
+            mSocket = IO.socket("http://ip_address.socket.io/port");
         } catch (URISyntaxException e) {
             e.printStackTrace();
         }
